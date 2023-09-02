@@ -1,0 +1,760 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.home {
+    height: 1000px;
+    background-image: url(/Images/hs2.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* padding-top: 2%; */
+}
+footer {
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+.main {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+}
+.bname {
+    width: 25%;
+    height: 50px;
+}
+.navbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 7px;
+}
+.navbutton2 {
+    display: none;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 7px;
+}
+.secondary-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 75%;
+    height: 50px;
+    text-align: right;
+    padding-top: 4px;
+    padding-right: 20px;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    margin-left: 4%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.herotext {
+    background-color: rgba(0, 0, 0, 0.288);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.herotext h2 {
+    font-size: 125px;
+    margin-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Great Vibes', cursive;
+    padding-bottom: 5%;
+}
+.herotext h3 {
+    font-size: 50px;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Great Vibes', cursive;
+    padding-bottom: 5%;
+    font-style: italic;
+}
+.herotext p {
+    font-size: 21px;
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Quicksand', sans-serif;
+    /* padding-bottom: 3%; */
+    line-height: 30px;
+    
+}
+.herotext button {
+    padding: 10px 30px;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    background-color: #930f12;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/* About Us */
+.aboutus {
+    height: 1200px;
+    background-image: url(/Images/hs4.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* padding-top: 2%; */
+}
+/* .aboutustext h2, h3, p {
+    margin: 0%;
+} */
+.aboutustext hr {
+    border: solid;
+    border-color: red;
+   border-width: 1px;
+   margin: 10px 30px;
+   
+}
+.aboutustext h2 {
+    font-size: 75px;
+    padding-bottom: 0%;
+    font-family: 'Great Vibes', cursive;
+    color: whitesmoke;
+}
+.aboutustext h3 {
+    font-size: 40px;
+    margin-top: 30px;
+    padding-bottom: 0%;
+    font-family: 'Great Vibes', cursive;
+}
+.aboutustext p {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0px 10px 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.aboutustext {
+    /* background-color: rgba(0, 0, 0, 0.288); */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.aboutustext button {
+    background-color: #930f12;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 5px 30px;
+    margin-top: 5%;
+    font-family: 'Quicksand', sans-serif;
+}
+/* Menu */
+.menu   {
+    height: 1000px;
+    background-image: url(/Images/Reserve.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.menuhead   {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+.menuhead h2 {
+    color: whitesmoke;
+    font-size: 75px;
+    /* margin-top: 10px; */
+    padding-top: 75px;
+    font-family: 'Great Vibes', cursive;
+}
+.menubox {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.288);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.box1, .box2, .box3, .box4, .box5 {
+    width: 250px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.box1 p {
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box2 p {
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box3 p {
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box4 p {
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box5 p {
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.menu1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/Images/menu1.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.menu2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/Images/menu2.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/Images/menu3.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu4 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/Images/menu4.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu5 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/Images/menu5.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Contact Us */
+.contact {
+    height: 1000px;
+    background-image: url(/Images/Reserve.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.contactinfo h2 {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 75px;
+    font-family: 'Great Vibes', cursive;
+    color: whitesmoke;
+}
+.contactinfo h3 {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: 'Great Vibes', cursive;
+
+}
+.contactinfo p {
+    font-size: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.social {
+    padding-left: 28px;
+    padding-top: 5px;
+}
+.open {
+    padding-left: 4%;
+    margin-bottom: 2%;
+}
+.contactinfo {
+    background-color: rgba(0, 0, 0, 0.288);
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.contactinfo hr {
+    border: solid;
+    color: red;
+    border-width: 1px;
+    margin: 10px 30px;
+}
+.contactinfo button {
+    margin-left: 30px;
+    background-color: #930f12;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 5px 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Quicksand', sans-serif;
+}
+.material-symbols-outlined {
+    margin-left: 5%;
+}
+
+
+
+/* Reservation Page */
+.reserve {
+    height: 1000px;
+    background-image: url(/Images/hs5.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.reservebox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 200px;
+}
+.resherotext {
+    width: 500px;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+}
+.form {
+    width: 500px;
+    height: 550px;
+    background-color: rgba(253, 252, 252, 0.157);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 20px 10px;
+    color: white;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #930f12;
+  color: white;
+  padding: 5px 30px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+input[type=datetime-local] {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.form h3 {
+    display: none;
+}
+.resherotext h2 {
+    font-size: 75px;
+    font-family: 'Great Vibes', cursive;
+}
+.resherotext p {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.resherotext hr {
+    border: 1px solid red;
+}
+label {
+    font-family: 'Quicksand', sans-serif;
+}
+/* button transitions */
+input[type=submit]:hover {
+  background-color: red;
+  transition: 0.5s;
+}
+.contactinfo button:hover {
+    background-color: red;
+  transition: 0.5s;
+}
+.aboutustext button:hover {
+    background-color: red;
+  transition: 0.5s;
+}
+.herotext button:hover {
+    background-color: red;
+  transition: 0.5s;
+}
+.navbutton:hover {
+    background-color: red;
+  transition: 0.5s;
+}
+.navbutton2:hover {
+    background-color: red;
+  transition: 0.5s;
+}
+
+
+/* Breakpoints */
+@media only screen and (max-width: 768px) {
+    /* Home */
+
+    .navbutton {
+    display: none;
+    }
+   .navbutton2 {
+    display: inline-block;
+    background-color: #930f12;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+   }
+    .nav {
+        width: 0px;
+    }
+    .bname {
+        width: 100%;
+    }
+   .herotext {
+    width: 500px;
+   }
+   .herotext h2 {
+    font-size: 90px;
+   }
+   .herotext p {
+    font-size: 20px;
+   }
+   .main {
+    background-color: black;
+   }
+   .home {
+    height: 900px;
+   }
+  /* Menu */
+  .menu {
+    height: 900px;
+  }
+  .menuhead h2 {
+    font-size: 50px;
+    padding: 70px 0px 20px 0px;
+  }
+  .menubox {
+    width: 650px;
+    height: 600px;
+  }
+  .menu1, .menu2, .menu3, .menu4, .menu5 {
+    width: 180px;
+    height: 160px;
+  }
+  .box1, .box2, .box3, .box4, .box5 {
+    width: 210px;
+    height: 250px;
+  }
+    
+
+/* About Us */
+    .aboutustext {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.282);
+    }
+    .aboutustext p {
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .aboutus {
+        height: 1200px;
+    }
+    .aboutustext h2 {
+        font-size: 45px;
+        padding-top: 20px;
+    }
+    .aboutustext h3 {
+        font-size: 30px;
+    }
+    .aboutustext button {
+        margin-bottom: 20px;
+    }
+   
+    /* Reserve */
+    .reservebox {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .resherotext {
+        width: 550px;
+        height: 550px;
+        text-align: justify;
+    }
+    .resherotext h2 {
+        font-size: 45px;
+    }
+    .resherotext p {
+        font-size: 16px;
+        line-height: 30px;
+
+    }
+    .form {
+        width: 500px;
+        height: 560px;
+        margin-top: 5px;
+    }
+    .form h3 {
+        display: block;
+        font-size: 16px;
+        padding-bottom: 8px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .reserve {
+        height: 1200px;
+    }
+    /* Contact */
+    .contactinfo p {
+        font-size: 16px;
+        padding: 0px 20px;
+        line-height: 30px;
+    }
+    .contactinfo {
+        width: 100%;
+    }
+    .contactinfo h2 {
+        font-size: 45px;
+    }
+    .contact {
+        height: 900px;
+    }
+
+    .social {
+    padding-left: 28px;
+    margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    /* Home */
+    .navbutton {
+    display: none;
+    }
+    .navbutton2 {
+    display: inline-block;
+    background-color: #930f12;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+    }
+    .home {
+        height: 700px;
+    }
+    .nav {
+    display: none;
+    }
+    .bname {
+    width: 100%;
+    background-color: black;
+    }
+    .herotext {
+       width: 100%;
+       top: 400px;
+    }
+    .herotext h2 {
+        font-size: 60px;
+    }
+    .herotext p {
+    font-size: 16px;
+    }
+    .herotext h3 {
+        font-size: 30px;
+    }
+    /* Menu */
+    .menuhead h2 {
+        font-size: 40px;
+    }
+    .menu {
+        height: 1700px;
+    }
+    .menubox {
+        width: 300px;
+        height: 1350px;
+        background-color: rgba(0, 0, 0, 0.041);
+    }
+    .box1, .box2, .box3, .box4, .box5 {
+        margin-top: 10px;
+    }
+    
+    /* About Us */
+    .aboutus {
+        height: 1600px;
+    }
+    .aboutustext {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.364);
+    }
+    .aboutustext p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .aboutustext h2 {
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .aboutustext h3 {
+        font-size: 30px;
+    }
+    .aboutustext button {
+        margin-bottom: 15px;
+    }
+    /* Contact Us */
+    .contact {
+        height: 1000px;
+    }
+    .contactinfo {
+        width: 100%;
+    }
+    .contactinfo h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .contactinfo p {
+        font-size: 14px;
+        line-height: 30px;
+        padding: 0px 10px;
+        text-align: justify;
+    }
+    .contactinfo h3 {
+        margin-top: 10px;
+    }
+    .contactinfo button {
+        margin-bottom: 20px;
+    }
+    /* Reservations */
+    .reserve {
+        height: 1600px;
+    }
+    .reservebox {
+        padding-top: 60px;
+        height: 1000px;
+    }
+    .resherotext {
+        height: 900px;
+    }
+    .resherotext h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    hr {
+        margin: 6px 40px;
+    }
+    .resherotext p {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    }
+
+
